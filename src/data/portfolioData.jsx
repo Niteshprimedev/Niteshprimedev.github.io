@@ -58,59 +58,33 @@ export const education = [
 
 export const projects = [
   {
-    title: "AgriSure",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
+    title: "Tickethelp",
+    tech: [
+      "React JS",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "API Integration",
+      "JWT",
+    ],
     description:
-      "Improved financial access for over 12,000 farmers boosting microloan approvals by 35% via CIBIL-based lending, integrating AI insights, and Hindi support via Google Translation. Engineered the full-stack system, handling frontend UI, backend API and database management.",
+      "Ticket Help empowers business owners to register the products they provide support for, and customers can raise support tickets and share feedback on thier products and features. It streamlines customer support workflows by enabling product‑specific ticketing, eliminating irrelevant submissions, and improving resolution efficiency.",
     date: "March 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/AgriSure", // Replace with actual link
-    liveLink: null, // Replace with actual link if available
+    githubLink: "https://github.com/Niteshprimedev/ticket-help", // Replace with actual link
+    liveLink: "https://ticket-help-niteshprimedev.vercel.app/", // Replace with actual link if available
     category: "Full Stack",
     icon: <FaReact size={24} className="text-accent-1" />,
   },
   {
-    title: "BuildBridge",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
+    title: "PathVisualizer",
+    tech: ["TypeScript", "React JS", "BFS", "DFS", "Algorithms"],
     description:
-      "Streamlined contracting for construction projects, reducing deal closure time by 40% via an AI-based platform matching builders with clients. Developed both frontend and backend, integrating user authentication, contract storage, and a responsive UI.",
-    date: "March 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/BuildBridge", // Replace with actual link
-    liveLink: "https://build-bridge-seven.vercel.app/",
-    category: "Full Stack",
+      "Pathfinding Visualizer, an interactive web app, that brings algorithms like BFS, DFS, Dijkstra’s, and A* to life. Users can draw walls, choose algorithm types, adjust speed, and watch how each algorithm explores the grid to find the shortest path in an intuitive, visual experience. This project highlights my ability to translate complex logic into engaging, practical applications.",
+    date: "May 2025 – June 2025",
+    githubLink: "https://github.com/Niteshprimedev/pathfinding-visualizer-v2", // Replace with actual link
+    liveLink: "https://pfv-niteshprimedev.netlify.app/",
+    category: "Frontend",
     icon: <FaReact size={24} className="text-accent-1" />,
-  },
-  {
-    title: "FarmConnect",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
-    description:
-      "Optimized crop storage for farmers, increasing warehouse occupancy by 25% via an AI-powered marketplace connecting farmers with warehouse owners. Developed a seamless booking system with real-time warehouse availability and farmer-friendly UI.",
-    date: "Feb 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/FarmConnect",
-    liveLink: "https://farm-connect-iota-psi.vercel.app/",
-    category: "Full Stack",
-    icon: <FaReact size={24} className="text-accent-1" />,
-  },
-  {
-    title: "WealthWise",
-    tech: ["React JS", "Node JS", "Firebase", "API Integration"],
-    description:
-      "Enhanced financial literacy and user engagement by 40% through an interactive fintech platform integrating gamification. Developed an engaging React UI with gamified elements ensuring smooth user interactions.",
-    date: "Jan 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/WealthWise",
-    liveLink: "https://wealthwisefinance.vercel.app/",
-    category: "Fintech",
-    icon: <SiFirebase size={24} className="text-accent-1" />,
-  },
-  {
-    title: "Blood Shortage Survey and Dashboard",
-    tech: ["React.js", "Node.js", "MongoDB"],
-    description:
-      "Increased efficiency of blood shortage tracking for healthcare organizations by 60% through a real-time analytics dashboard. Built an intuitive React.js dashboard with real-time charts and data visualizations.",
-    date: "Jan 2025 – Present",
-    githubLink: "https://github.com/aditiarya37/BloodLink", // Replace with actual link
-    liveLink: null,
-    category: "Healthcare",
-    icon: <FaDatabase size={24} className="text-accent-1" />,
   },
 ];
 
