@@ -6,7 +6,7 @@ My personal developer portfolio built with React, showcasing my skills, projects
 
 Explore my work and projects below 👇👇👇
 
-🔗 [niteshprimedev](https://niteshprimedev.netlify.app/)
+🔗 [niteshprimedev](https://niteshprimedev.github.io/)
 
 ## 🚀 Features
 
