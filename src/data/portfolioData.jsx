@@ -31,8 +31,8 @@ export const personalInfo = {
   linkedin: "https://linkedin.com/in/niteshprimedev",
   github: "https://github.com/niteshprimedev",
   resumeLink: "/NiteshResume.pdf", // Make sure your resume is in public/
-  bio: "Passionate Full Stack Developer with a strong foundation in modern JavaScript, HTML, CSS, and Reactjs for front-end development, and hands-on experience with Node.js, Express.js, and MongoDB for back-end solutions. Proven ability to design and implement RESTful APIs, optimize performance, and deliver end‑to‑end solutions — from concept to deployment.",
-  shortBio: "I build things for the web.", // For Hero section
+  bio: "Passionate Software Engineer with a strong foundation in Java and Reactjs for building applications using modern Java frameworks. Proven ability to design and implement RESTful APIs, optimize performance, and deliver end‑to‑end solutions — from concept to deployment.",
+  shortBio: "I build things for the web.",
 };
 
 export const education = [
@@ -133,6 +133,16 @@ export const leadershipAndInvolvement = [
     ],
   },
   {
+    role: "Software Engineer",
+    organization: "Wipro Technologies",
+    duration: "May 2024 – Present",
+    points: [
+      "Designed and implemented backend services using Java and Spring Boot, ensuring efficient and scalable business logic.",
+      "Implemented and optimized REST APIs to improve data exchange speed and system performance by 30%.",
+      "Participated in code reviews, debugging, and low-level design discussions to ensure clean, modular, and maintainable architecture.",
+    ],
+  },
+  {
     role: "Freelancer",
     organization: "Upwork",
     duration: "Feb 2022 - Aug 2022",
@@ -142,13 +152,12 @@ export const leadershipAndInvolvement = [
     ],
   },
   {
-    role: "Scholar Trainee",
+    role: "SDET",
     organization: "Wipro Technologies",
-    duration: "Nov 2020 – Dec 2024",
+    duration: "Nov 2020 – Apr 2024",
     points: [
-      "Developed the ResourceHub app for accessing the resources and updating the resources.",
-      "Created an internal Datafeed application using JavaScript that reduced manual data feeding by 80%.",
-      "Managed the QA and Application Tester role to rectify bugs and issues.",
+      "Developed internal Datafeed automation and backend test utilities application using Java, reducing repetitive manual tasks and saving 8 + hours per sprint.",
+      "Designed and executed API and integration test cases using Java and Postman, cutting post-release defects by 25%",
     ],
   },
 ];
